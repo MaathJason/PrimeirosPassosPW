@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'avengedfont';
+    src: url(font/underwood_champion/uwch.ttf);
+}
+
+body {
+    background-color:antiquewhite;
+    font-family: 'avengedfont';
+}
+h1 {
+    color:black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+div {
+    text-align: center;
+}
+
+.light-theme{
+    color:darkblue ;
+    font-family: custom;
+}
