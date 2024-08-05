@@ -1,24 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: 'avengedfont';
+}
+
 @font-face {
     font-family: 'avengedfont';
     src: url(font/underwood_champion/uwch.ttf);
 }
 
+
+header h1{
+    font-size: 2em;
+    
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #061e1d;
+    border-radius: 15px;
+    color: #e3cbb3;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+.logo img{
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    padding-right: 10px;
+}
+ul{
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+li a {
+    transition: all 400ms ease 0ms;
+    color: #DCB391;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: #FFF1E6;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.4rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+
+  main section {
+    flex-flow: column wrap;
+  }
+
 body {
-    background-color:antiquewhite;
+    background-color: #e3cbb3;
     font-family: 'avengedfont';
 }
+
+
 h1 {
-    color:black;
     padding: 20px;
     text-align: center;
 }
 
-
-div {
-    text-align: center;
-}
-
-.light-theme{
-    color:darkblue ;
-    font-family: custom;
-}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
