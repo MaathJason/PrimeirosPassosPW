@@ -81,9 +81,27 @@ h1 {
     text-align: center;
 }
 
-footer {
+footer{
+    background-color: #061e1d;
+    color: #DCB391;
+    padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-  }
+    letter-spacing: 3px;
+}
+
+.social{
+    padding-top: 10px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    padding: 0px 20px;
+    color: #DCB391;
+}
