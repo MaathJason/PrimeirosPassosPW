@@ -89,11 +89,12 @@ footer{
     justify-content: space-between;
     align-items: center;
     letter-spacing: 3px;
+    border-radius: 15px;
 }
 
 .social{
     padding-top: 10px;
-    padding-right: 50px;
+    padding-right: 15px;
     display: flex;
     align-items: center;
 }
