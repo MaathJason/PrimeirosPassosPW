@@ -9,10 +9,6 @@
     src: url(font/underwood_champion/uwch.ttf);
 }
 
-body {
-    background-color: #e3cbb3;
-    font-family: 'avengedfont';
-}
 
 header h1{
     font-size: 1.5em;
@@ -62,54 +58,6 @@ li a {
     text-underline-offset: 0.4rem;
   }
 
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
+  body{
+    background-color: #e3cbb3;
   }
-
-
-  main section {
-    flex-flow: column wrap;
-  }
-
-h1 {
-
-    text-align: center;
-}
-
-footer{
-    background-color: #061e1d;
-    color: #DCB391;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    letter-spacing: 3px;
-    border-radius: 15px;
-}
-
-.social{
-    padding-top: 10px;
-    padding-right: 15px;
-    display: flex;
-    align-items: center;
-}
-
-i {
-    height: 25px;
-    width: 25px;
-    font-size: 25px;
-    padding: 0px 20px;
-    color: #DCB391;
-}
-
-.albumcover{
-    margin: 20px;
-    width: 250px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}

@@ -1,0 +1,40 @@
+body {
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.disc {
+    color: #DCB391;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 20px;
+    padding: 60px;
+}
+
+.album {
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    background-color: #061e1d;
+    box-shadow: 0 4px 8px;
+    border-radius: 8px;
+}
+
+.cover {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.album h3 {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.ano {
+    color: #78664e ;
+}
