@@ -1,5 +1,6 @@
 body {
     padding: 10px;
+    box-sizing: border-box;
 }
 
 h1{
@@ -12,7 +13,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding: 60px;
 }
 
@@ -23,12 +24,26 @@ h1{
     background-color: #061e1d;
     box-shadow: 0 4px 8px;
     border-radius: 8px;
+    transition: 1s;
 }
 
-.cover {
+.cover { 
     width: 100%;
     border-radius: 8px;
+    
 }
+
+
+
+.album:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+
+
+
+
 
 .album h3 {
     margin-top: 8px;
@@ -37,4 +52,5 @@ h1{
 
 .ano {
     color: #78664e ;
+    font-size: 14px;
 }

@@ -1,0 +1,46 @@
+
+
+.bandmembros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 20px;
+    padding: 60px;
+}
+
+.membro{
+    width: 30%;
+    background-color: #061e1d;
+    padding: 8px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.membro:hover{
+    transform: scale(1.2);
+}
+
+.membro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.membro h3 {
+    margin-top: 8px;
+    font-size: 18px;
+    color:#DCB391;
+}
+
+.membro .role {
+    margin-top: 4px;
+    font-size: 14px;
+    color: #78664e;
+}
+
+.syn {
+    resize: both;
+}
+
